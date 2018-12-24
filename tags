@@ -1,0 +1,104 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLACK	color.h	9;"	d
+BLINK	color.h	28;"	d
+BLUE	color.h	17;"	d
+BOLD	color.h	26;"	d
+BROWN	color.h	15;"	d
+CC	Makefile	/^CC=gcc$/;"	m
+CLEAR	color.h	31;"	d
+CLRLINE	color.h	32;"	d
+CYAN	color.h	21;"	d
+DBUSER_NULL	db_fun.h	24;"	d
+DB_H_	db_fun.h	6;"	d
+DB_MAX_ERROR_LEN	db_fun.h	19;"	d
+DB_MYSQL	db_fun.h	20;"	d
+DB_SQLITE	db_fun.h	21;"	d
+DEBUG_GREEN	color.h	38;"	d
+DEBUG_GREEN	color.h	41;"	d
+DEBUG_RED	color.h	37;"	d
+DEBUG_RED	color.h	40;"	d
+EXEC	Makefile	/^EXEC=DBUpdate$/;"	m
+GRAY	color.h	23;"	d
+GREEN	color.h	13;"	d
+HIDE	color.h	30;"	d
+LOG_FILE_PATH	log.c	12;"	d	file:
+LOG_FILE_PATH	log.h	9;"	d
+LOG_FILE_PATH	unionlog.c	12;"	d	file:
+LOG_FILE_PATH	unionlog.h	9;"	d
+LOG_FILE_PATH	update.c	12;"	d	file:
+LOG_PARAMS	log.c	13;"	d	file:
+LOG_PARAMS	log.h	10;"	d
+LOG_PARAMS	unionlog.c	13;"	d	file:
+LOG_PARAMS	unionlog.h	10;"	d
+LOG_PARAMS	update.c	13;"	d	file:
+L_BLACK	color.h	10;"	d
+L_BLUE	color.h	18;"	d
+L_CYAN	color.h	22;"	d
+L_GREEN	color.h	14;"	d
+L_PURPLE	color.h	20;"	d
+L_RED	color.h	12;"	d
+MAX_LEN	update.c	11;"	d	file:
+NONE	color.h	8;"	d
+OBJS	Makefile	/^OBJS=$(SRCS:.c=.o)$/;"	m
+PURPLE	color.h	19;"	d
+RED	color.h	11;"	d
+REVERSE	color.h	29;"	d
+SIZE_16M	log.c	11;"	d	file:
+SIZE_16M	log.h	8;"	d
+SIZE_16M	unionlog.c	11;"	d	file:
+SIZE_16M	unionlog.h	8;"	d
+SQLLENGTH	hacsqldual.h	26;"	d
+SRCS	Makefile	/^SRCS=update.c\\$/;"	m
+STR_LEN_2048	log.c	14;"	d	file:
+STR_LEN_2048	log.h	11;"	d
+STR_LEN_2048	unionlog.c	14;"	d	file:
+STR_LEN_2048	unionlog.h	11;"	d
+UNDERLINE	color.h	27;"	d
+USER	update.c	/^}USER;$/;"	t	typeref:struct:User	file:
+User	update.c	/^typedef struct User{$/;"	s	file:
+VS_ERR	log.c	15;"	d	file:
+VS_ERR	log.h	12;"	d
+VS_ERR	unionlog.c	15;"	d	file:
+VS_ERR	unionlog.h	12;"	d
+VS_OK	log.c	16;"	d	file:
+VS_OK	log.h	13;"	d
+VS_OK	unionlog.c	16;"	d	file:
+VS_OK	unionlog.h	13;"	d
+WHITE	color.h	24;"	d
+YELLOW	color.h	16;"	d
+_COLOR_H_	color.h	2;"	d
+_LOG_H_	log.h	2;"	d
+_LOG_H_	unionlog.h	2;"	d
+__DEBUG__	color.h	35;"	d
+actived	db_fun.h	/^	int actived;	$/;"	m	struct:__anon1
+connection	db_fun.h	/^	MYSQL * connection;$/;"	m	struct:__anon1
+db_conn	db_fun.h	/^}db_conn;$/;"	t	typeref:struct:__anon1
+db_data	db_fun.h	/^}db_data;$/;"	t	typeref:struct:__anon2
+dbname	db_fun.h	/^	char dbname[64];$/;"	m	struct:__anon1
+dbtype	db_fun.h	/^	int dbtype;		\/* database type *\/$/;"	m	struct:__anon2
+dbtype	db_fun.h	/^	int dbtype;$/;"	m	struct:__anon1
+debugInfo	log.c	/^int debugInfo(char *pLogPath, char *pFile, const char *pFuncName, int iLineNumb, char *fmt, ...)$/;"	f
+debugInfo	unionlog.c	/^int debugInfo(char *pLogPath, char *pFile, const char *pFuncName, int iLineNumb, char *fmt, ...)$/;"	f
+email	update.c	/^	char email[65];$/;"	m	struct:User	file:
+errormsg	db_fun.h	/^	char errormsg[DB_MAX_ERROR_LEN];$/;"	m	struct:__anon1
+errorno	db_fun.h	/^	int errorno;$/;"	m	struct:__anon1
+fields	db_fun.h	/^	int fields;		\/* result data fields *\/$/;"	m	struct:__anon2
+giInfoNumb	log.c	/^int giInfoNumb = 1;$/;"	v
+giInfoNumb	unionlog.c	/^int giInfoNumb = 1;$/;"	v
+host	db_fun.h	/^	char host[64];$/;"	m	struct:__anon1
+main	update.c	/^int main(int argc, char **argv)$/;"	f
+passwd	db_fun.h	/^	char passwd[64];$/;"	m	struct:__anon1
+phone	update.c	/^	char phone[65];$/;"	m	struct:User	file:
+port	db_fun.h	/^	unsigned int port;$/;"	m	struct:__anon1
+res_ptr	db_fun.h	/^	MYSQL_RES *res_ptr;   \/* store result data*\/$/;"	m	struct:__anon2
+rows	db_fun.h	/^	int rows;		\/* result data rows *\/$/;"	m	struct:__anon2
+sqlite_res	db_fun.h	/^	char ** sqlite_res; \/* store sqlite result data, $/;"	m	struct:__anon2
+sqlitedb	db_fun.h	/^	sqlite3 *sqlitedb;	$/;"	m	struct:__anon1
+sqlitefile	db_fun.h	/^	char sqlitefile[256];$/;"	m	struct:__anon1
+user	db_fun.h	/^	char user[64];$/;"	m	struct:__anon1
+username	update.c	/^	char username[65];$/;"	m	struct:User	file:
